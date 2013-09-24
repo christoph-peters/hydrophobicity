@@ -85,10 +85,10 @@ def comparePerAA(pred_seq, struc_seq):
                 iTN += 1
             elif struc_seq[i] == "M":
                 iFN += 1
-            else:
+            elif struc_seq[i] != ".":
                 iFP += 1
 
-        return float(math_and_statistics.calc_MCC_single_values(iTP, iFN, iTN, iFP))
+        return float(math_and_statistics.calc_MCC_single_values(iTP, iFN, iTN, iFP)[4])
 
 
 
