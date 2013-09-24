@@ -8,17 +8,18 @@ def main():
 	scaleNameString = ""
 	windowDirs = os.listdir(resultdir)
 	resultList = []
+	windowDirs = [int(entry.replace("window_", "")) for entry in  windowDirs]
+	windowDirs =  sorted(windowDirs, key=int)
 	for window in windowDirs:
 		scaleNameString = ""
-		windowName=window.replace("window_","")
-		resultRow = str(windowName)
-		resultFiles = os.listdir(resultdir + window + "/")
+		resultRow = str(window)
+		resultFiles = os.listdir(resultdir +  "window_" + str(window) + "/")
 		resultFiles.sort()
 		for resultFile in resultFiles:
 			highestResult = 0
 			scaleName = resultFile.split("_")[3].replace(".res","")
 			scaleNameString = scaleNameString + ";" + scaleName
-			fileResult = open(resultdir + window + "/" + resultFile,"r")
+			fileResult = open(resultdir +  "window_" + str(window) + "/" + resultFile,"r")
 			for line in fileResult:
 				if "/" not in line:
 					resultValueTemp = line

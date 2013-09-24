@@ -1,9 +1,11 @@
+import matplotlib
+# Force matplotlib to not use x-server
+matplotlib.use('Agg')
+
 import matplotlib.pyplot as mpl
 import numpy as np
 import csv
 
-# Force matplotlib to not use x-server
-matplotlib.use('Agg')
 
 fileIn=list(csv.reader(open("/afs/pdc.kth.se/misc/pdc/volumes/sbc/prj.sbc.chrisp.1/scampi/output/completeOutput.txt","rb"),delimiter=';'))
 
