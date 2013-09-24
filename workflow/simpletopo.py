@@ -18,7 +18,7 @@ import os
 
 def main(sScale, sFastaFolder, sTopoFile, sIdentifier, iStartNumberOpimization, iEndNumberOpimization, iStepNumberOpimization):
     os.system("../helper/simpletopo/runSimpleTopo.sh " + sScale + " " + sFastaFolder + " "  
-                                                       + sTopoFile + sIdentifier + " " 
+                                                       + sTopoFile + " " + sIdentifier + " " 
                                                        + iStartNumberOpimization + " " 
                                                        + iEndNumberOpimization + " " 
                                                        + iStepNumberOpimization)
