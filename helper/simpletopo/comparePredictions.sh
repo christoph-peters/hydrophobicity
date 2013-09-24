@@ -13,5 +13,5 @@ filenames=""
 for file in $predictiondir*
 do
   echo $file
- ./comparePredictionsNew.py ${file} $structureFile
+ ../helper/simpletopo/comparePredictionsNew.py ${file} $structureFile
 done
