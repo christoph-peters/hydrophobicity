@@ -37,4 +37,4 @@ if __name__ == '__main__':
         main(sScale, sFastaFolder, sTopoFile, sIdentifier, iStartNumberOpimization, iEndNumberOpimization, iStepNumberOpimization)
 
     else:
-        print "../helper/simpletopo.py NAME_OF_SCALE FOLDER_FASTA TOPO_FILE_AS_LIST IDENTIFIER START_NUMBER_OPTIMIZATION END_NUMBER_OPTIMIZATION STEP_NUMBER_OPTIMIZATION"
+        print "./simpletopo.py NAME_OF_SCALE FOLDER_FASTA TOPO_FILE_AS_LIST IDENTIFIER START_NUMBER_OPTIMIZATION END_NUMBER_OPTIMIZATION STEP_NUMBER_OPTIMIZATION"
