@@ -1,0 +1,21 @@
+./runSimpleTopo.sh wimley /afs/pdc.kth.se/misc/pdc/volumes/sbc/prj.sbc.chrisp.1/scampi/input/dataset_for_pdb_scale/simpletopo/most_hydrophobic/fasta/high/ /afs/pdc.kth.se/misc/pdc/volumes/sbc/prj.sbc.chrisp.1/scampi/input/dataset_for_pdb_scale/simpletopo/most_hydrophobic/topo/high_topo.list high_res_130923 -2 2 0.1
+./runSimpleTopo.sh hessa /afs/pdc.kth.se/misc/pdc/volumes/sbc/prj.sbc.chrisp.1/scampi/input/dataset_for_pdb_scale/simpletopo/most_hydrophobic/fasta/high/ /afs/pdc.kth.se/misc/pdc/volumes/sbc/prj.sbc.chrisp.1/scampi/input/dataset_for_pdb_scale/simpletopo/most_hydrophobic/topo/high_topo.list high_res_130923 -2 2 0.1
+./runSimpleTopo.sh eisenberg /afs/pdc.kth.se/misc/pdc/volumes/sbc/prj.sbc.chrisp.1/scampi/input/dataset_for_pdb_scale/simpletopo/most_hydrophobic/fasta/high/ /afs/pdc.kth.se/misc/pdc/volumes/sbc/prj.sbc.chrisp.1/scampi/input/dataset_for_pdb_scale/simpletopo/most_hydrophobic/topo/high_topo.list high_res_130923 -2 2 0.1
+./runSimpleTopo.sh kyte /afs/pdc.kth.se/misc/pdc/volumes/sbc/prj.sbc.chrisp.1/scampi/input/dataset_for_pdb_scale/simpletopo/most_hydrophobic/fasta/high/ /afs/pdc.kth.se/misc/pdc/volumes/sbc/prj.sbc.chrisp.1/scampi/input/dataset_for_pdb_scale/simpletopo/most_hydrophobic/topo/high_topo.list high_res_130923 -2 2 0.1
+./runSimpleTopo.sh moon /afs/pdc.kth.se/misc/pdc/volumes/sbc/prj.sbc.chrisp.1/scampi/input/dataset_for_pdb_scale/simpletopo/most_hydrophobic/fasta/high/ /afs/pdc.kth.se/misc/pdc/volumes/sbc/prj.sbc.chrisp.1/scampi/input/dataset_for_pdb_scale/simpletopo/most_hydrophobic/topo/high_topo.list high_res_130923 -2 2 0.1
+./runSimpleTopo.sh pm1d /afs/pdc.kth.se/misc/pdc/volumes/sbc/prj.sbc.chrisp.1/scampi/input/dataset_for_pdb_scale/simpletopo/most_hydrophobic/fasta/high/ /afs/pdc.kth.se/misc/pdc/volumes/sbc/prj.sbc.chrisp.1/scampi/input/dataset_for_pdb_scale/simpletopo/most_hydrophobic/topo/high_topo.list high_res_130923 -2 2 0.1
+./runSimpleTopo.sh pm3d /afs/pdc.kth.se/misc/pdc/volumes/sbc/prj.sbc.chrisp.1/scampi/input/dataset_for_pdb_scale/simpletopo/most_hydrophobic/fasta/high/ /afs/pdc.kth.se/misc/pdc/volumes/sbc/prj.sbc.chrisp.1/scampi/input/dataset_for_pdb_scale/simpletopo/most_hydrophobic/topo/high_topo.list high_res_130923 -2 2 0.1
+./runSimpleTopo.sh opm1 /afs/pdc.kth.se/misc/pdc/volumes/sbc/prj.sbc.chrisp.1/scampi/input/dataset_for_pdb_scale/simpletopo/most_hydrophobic/fasta/high/ /afs/pdc.kth.se/misc/pdc/volumes/sbc/prj.sbc.chrisp.1/scampi/input/dataset_for_pdb_scale/simpletopo/most_hydrophobic/topo/high_topo.list high_res_130923 -2 2 0.1
+./runSimpleTopo.sh hopp /afs/pdc.kth.se/misc/pdc/volumes/sbc/prj.sbc.chrisp.1/scampi/input/dataset_for_pdb_scale/simpletopo/most_hydrophobic/fasta/high/ /afs/pdc.kth.se/misc/pdc/volumes/sbc/prj.sbc.chrisp.1/scampi/input/dataset_for_pdb_scale/simpletopo/most_hydrophobic/topo/high_topo.list high_res_130923 -2 2 0.1
+./runSimpleTopo.sh janin /afs/pdc.kth.se/misc/pdc/volumes/sbc/prj.sbc.chrisp.1/scampi/input/dataset_for_pdb_scale/simpletopo/most_hydrophobic/fasta/high/ /afs/pdc.kth.se/misc/pdc/volumes/sbc/prj.sbc.chrisp.1/scampi/input/dataset_for_pdb_scale/simpletopo/most_hydrophobic/topo/high_topo.list high_res_130923 -2 2 0.1
+./runSimpleTopo.sh uhs /afs/pdc.kth.se/misc/pdc/volumes/sbc/prj.sbc.chrisp.1/scampi/input/dataset_for_pdb_scale/simpletopo/most_hydrophobic/fasta/high/ /afs/pdc.kth.se/misc/pdc/volumes/sbc/prj.sbc.chrisp.1/scampi/input/dataset_for_pdb_scale/simpletopo/most_hydrophobic/topo/high_topo.list high_res_130923 -2 2 0.1
+./runSimpleTopo.sh ges /afs/pdc.kth.se/misc/pdc/volumes/sbc/prj.sbc.chrisp.1/scampi/input/dataset_for_pdb_scale/simpletopo/most_hydrophobic/fasta/high/ /afs/pdc.kth.se/misc/pdc/volumes/sbc/prj.sbc.chrisp.1/scampi/input/dataset_for_pdb_scale/simpletopo/most_hydrophobic/topo/high_topo.list high_res_130923 -2 2 0.1
+./runSimpleTopo.sh guy /afs/pdc.kth.se/misc/pdc/volumes/sbc/prj.sbc.chrisp.1/scampi/input/dataset_for_pdb_scale/simpletopo/most_hydrophobic/fasta/high/ /afs/pdc.kth.se/misc/pdc/volumes/sbc/prj.sbc.chrisp.1/scampi/input/dataset_for_pdb_scale/simpletopo/most_hydrophobic/topo/high_topo.list high_res_130923 -2 2 0.1
+
+
+
+
+
+
+
+
