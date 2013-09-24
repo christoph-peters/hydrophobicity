@@ -2,7 +2,10 @@
 
 # new way to calculate sliding window results 
 
-import sys,re;
+import sys,re, os;
+
+sys.path.append("/".join(os.path.realpath(__file__).split("/")[0:-4]))
+
 from lib import io
 
 repeat = re.compile(r'((?P<start>[M])(?P=start)+[\.]*)|(?P<test>[M])')
