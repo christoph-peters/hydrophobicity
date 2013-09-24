@@ -7,6 +7,7 @@ import sys,re, os;
 sys.path.append("/".join(os.path.realpath(__file__).split("/")[0:-4]))
 
 from lib import io
+from lib import math_and_statistics
 
 repeat = re.compile(r'((?P<start>[M])(?P=start)+[\.]*)|(?P<test>[M])')
 
@@ -71,13 +72,23 @@ def compareTop(strPredictionTemp, strStructureTemp) :
         
 
 def comparePerAA(pred_seq, struc_seq):
-    iCorrect = 0
-    iAll = len(pred_seq)
+    iTP = 0
+    iFP = 0
+    iTN = 0
+    iFN = 0
+
     if len(pred_seq) == len(struc_seq):
         for i in range(0, len(pred_seq)):
-            if pred_seq[i] == struc_seq[i]:
-                iCorrect += 1
-        return (iCorrect/float(iAll))*100
+            if pred_seq[i] == struc_seq[i] and struc_seq[i] == "M":
+                iTP += 1
+            elif pred_seq[i] == struc_seq[i]:
+                iTN += 1
+            elif struc_seq[i] == "M":
+                iFN += 1
+            else:
+                iFP += 1
+
+        return float(math_and_statistics.calc_MCC_single_values(iTP, iFN, iTN, iFP))
 
 
 
