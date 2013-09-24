@@ -13,5 +13,5 @@ mkdir /scratch/chrisp/simpletopo/$SCALE 2>/dev/null
 ../helper/simpletopo/createFilesForComparison.sh /scratch/chrisp/simpletopo/$SCALE/secondstep/ $SCALE
 ../helper/simpletopo/comparePredictionsWindow.sh /scratch/chrisp/simpletopo/$SCALE/combined/$SCALE/ $INPUTTOPOLIST $SCALE $IDENTIFY
 rm -rf /scratch/chrisp/simpletopo/$SCALE
-python ../helper/parseResults.py /afs/pdc.kth.se/misc/pdc/volumes/sbc/prj.sbc.chrisp.1/scampi/output/simpletopo/
-python ../helper/plot_sliding_window.py
+python ../helper/simpletopo/parseResults.py /afs/pdc.kth.se/misc/pdc/volumes/sbc/prj.sbc.chrisp.1/scampi/output/simpletopo/
+python ../helper/simpletopo/plot_sliding_window.py
