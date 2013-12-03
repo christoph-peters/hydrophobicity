@@ -71,7 +71,7 @@ def compareTop(strPredictionTemp, strStructureTemp) :
         return 0
         
 
-def comparePerAA(pred_seq, struc_seq):
+def comparePerAA_MCC(pred_seq, struc_seq):
     iTP = 0
     iFP = 0
     iTN = 0
@@ -90,6 +90,18 @@ def comparePerAA(pred_seq, struc_seq):
 
         return float(math_and_statistics.calc_MCC_single_values(iTP, iFN, iTN, iFP)[4])
 
+
+def comparePerAA_MCC(pred_seq, struc_seq):
+    iCorrect = 0
+    iAll = 0
+
+    if len(pred_seq) == len(struc_seq):
+        for i in range(0, len(pred_seq)):
+            if pred_seq[i] == struc_seq[i]:
+                iCorrect += 1
+            iAll += 1
+
+        return iCorrect/float(iAll)*100
 
 
 if __name__ == '__main__' :
