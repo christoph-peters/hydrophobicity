@@ -91,7 +91,7 @@ def comparePerAA_MCC(pred_seq, struc_seq):
         return float(math_and_statistics.calc_MCC_single_values(iTP, iFN, iTN, iFP)[4])
 
 
-def comparePerAA_MCC(pred_seq, struc_seq):
+def comparePerAA(pred_seq, struc_seq):
     iCorrect = 0
     iAll = 0
 
