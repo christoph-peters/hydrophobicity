@@ -81,7 +81,7 @@ def main():
     if not os.path.exists(sOutput):
         os.makedirs(sOutput)
     filenameList = os.listdir(sPathFasta)
-    for iWindowsize in range(1,31,2):
+    for iWindowsize in range(17,25,2):
         weightedMatrix = fillMatrix(iWindowsize)
         for filename in filenameList:
             if filename.find("._") != 0:
